@@ -1,0 +1,22 @@
+{
+    "name": "topbass/mongo-tailog",
+    "type": "zend-extra",
+    "description": "ZF2 Mongo Tailong from Topbass Labs",
+    "keywords": [],
+    "homepage": "http://topbasslabs.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rollie Ma",
+            "email": "rollie@topbasslabs.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "MongoTailog\\": "src/"
+        }
+    },
+    "require": {
+        "composer/installers": "*"
+    }
+}
